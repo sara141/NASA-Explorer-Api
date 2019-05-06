@@ -27,7 +27,7 @@ The response of the api contains a `media_type` key. If the value is `image`, yo
 
 - **Title**: The title should be the name of the image provided by the api.
 
-- **Description Box**: When the mouse is over the title, a box should appear containing the description provided by the api.
+- **Description Box**: When the mouse is over the title, a box should appear containing the explanation provided by the api.
 
 
 ### Map Asteroids Close To Earth
