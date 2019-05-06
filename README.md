@@ -6,7 +6,7 @@ https://api.nasa.gov/api.html
 
 ## Setup
 
-**Step 1**: Open a new repository at `https://github.com/Lotus-1`
+**Step 1**: Fork this repository on your own github profile
 **Step 2**: Create API key
 **Step 3**: Create a `.env` file and place your api key there. This file should not be pushed to your repository.
 
