@@ -44,5 +44,7 @@ Endpoint: `GET https://api.nasa.gov/neo/rest/v1/feed` (see documentation for que
     * Estimated speed (in km)
 - The page should be divided in sections. Each section represents a close approach date (see the data provided by the api). The close approach date should be seen as title to each section (see diagram)
 - The asteroids belonging to each section should appear by decreasing order of size (biggest ones first).
-
-### Basic Design Digram
+</br>
+### Basic Design Diagram
+</br>
+![Basic Diagram](img/diagram.png)
