@@ -51,4 +51,4 @@ Endpoint: `GET https://api.nasa.gov/neo/rest/v1/feed` (see documentation for que
 
 ### Basic Design Diagram
 
-![Basic Diagram](img/diagram.png)
+![Basic Diagram](img/diagram.jpg)
