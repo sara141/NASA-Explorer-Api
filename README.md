@@ -35,6 +35,8 @@ Endpoint: `GET https://api.nasa.gov/neo/rest/v1/feed` (see documentation for que
 - If the api returns an error message, an appropriate error should be displayed to the user.
 - Each asteroid should be represented on the page with its relevant information
 - Each asteroid is represented on the page in it's own box. (see diagram)
+- The image used should be the same image for every box and is included in this repo as `astro.png`
+- The background of each asteroid box should be black.
 - The page should show two asteroids on each row. (see diagram)
 - If an asteroid is potentially hazardous to Earth, its background should be blinking red
 - For each asteroid, the following information should be displayed:
@@ -42,9 +44,11 @@ Endpoint: `GET https://api.nasa.gov/neo/rest/v1/feed` (see documentation for que
     * name
     * size (diameter in meters, rounded to full integer)
     * Estimated speed (in km)
+    * Miss distance from Earth (in lunar units, rounded to 2 decimals)
 - The page should be divided in sections. Each section represents a close approach date (see the data provided by the api). The close approach date should be seen as title to each section (see diagram)
 - The asteroids belonging to each section should appear by decreasing order of size (biggest ones first).
-</br>
+
+
 ### Basic Design Diagram
-</br>
+
 ![Basic Diagram](img/diagram.png)
