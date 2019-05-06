@@ -16,13 +16,13 @@ https://api.nasa.gov/api.html
 
 - The Input form should have 2 fields, `Start date` and `End date` as well as a button to submit the form with a value of **Search for asteroids**.
 
-**First api call** </br>
+**First Api Call** </br>
 - Use the `apod` api (`GET https://api.nasa.gov/planetary/apod`) to fetch data on the "picture of the day".
 The data received should be used to set the background, title and description box.
 
 - **Background image**: The api will provide a url. Use this url to set the background image. The background should cover the whole page and stay fixed when the user is scrolling.
-*** Careful! The api doesn't always returns a url to an image. Sometimes the image of the day is a video.
-The response of the api contains a `media_type` key. If the value is `image`, your app should choose to use the image at the link provided by the api. If not, your app should choose to display the default image located at http://www.adwonline.ae/wp-content/uploads/2017/04/space-005.jpg ***
+***Careful! The api doesn't always returns a url to an image. Sometimes the image of the day is a video.
+The response of the api contains a `media_type` key. If the value is `image`, your app should choose to use the image at the link provided by the api. If not, your app should choose to display the default image located at http://www.adwonline.ae/wp-content/uploads/2017/04/space-005.jpg***
 
 
 - **Title**: The title should be the name of the image provided by the api.
@@ -32,7 +32,7 @@ The response of the api contains a `media_type` key. If the value is `image`, yo
 
 ### Map Asteroids Close To Earth
 
-API Url: `GET https://api.nasa.gov/neo/rest/v1/feed` (see documentation for query parameters)
+API url: `GET https://api.nasa.gov/neo/rest/v1/feed` (see documentation for query parameters)
 
 **Requirements**
 
